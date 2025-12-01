@@ -25,3 +25,28 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Rust build artifacts
+**/target/
+**/Cargo.lock
+*.wasm
+
+# Linera executables and dependencies
+linera.exe
+linera-storage-server.exe
+linera-protocol/
+linera-factory/
+
+# Deployment info
+deployment-info.txt
+
+#md files
+BUILDATHON.md
+QUICKSTART.md
+TESTING.md
+
+# OS-specific
+*.exe
+*.dll
+*.so
+*.dylib
